@@ -16,8 +16,8 @@ const Hero = (props) => (
         I'm Jose Gerald
       </SectionTitle>
       <SectionText>
-        I'm a computer engineering student who is passionate about writing code,
-        solving problems, automating stuff, and building software.
+        I'm a computer engineering student. I love writing code, solving
+        problems as well as automating stuff, and building software.
       </SectionText>
       <Button onClick={() => (window.location = "#about")}>Learn more</Button>
     </LeftSection>
