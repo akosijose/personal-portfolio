@@ -1,43 +1,25 @@
+// Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.
+
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Dice Pig Game",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This project I learn how to create fundamentals game variables, generate a random number, manipulate the DOM, read from the DOM, and to changed CSS styles.",
+    image: "/images/Dice-Pig-Game.png",
+    tags: ["JavaScript"],
+    source: "https://akosijose.github.io/dice-game/",
+    visit: "https://github.com/akosijose/dice-game",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Studio Ghibli",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Learn what a Web API is and how to retrieve data asynchronously from an API with JavaScript",
+    image: "/images/Ghibli-App.png",
+    tags: ["JavaScript"],
+    source: "https://akosijose.github.io/API-with-JS/",
+    visit: "https://github.com/akosijose/API-with-JS",
     id: 1,
-  },
-  {
-    title: "WebRTC App",
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
   },
 ];
 

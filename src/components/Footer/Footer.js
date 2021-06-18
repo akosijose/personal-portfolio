@@ -27,28 +27,26 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>If you can't find a way, Create one.</Slogan>
+          <Slogan>"If you can't find a way, Create one"</Slogan>
         </CompanyContainer>
-        <LinkColumn>
-          <LinkTitle>Follow me:</LinkTitle>
-          <SocialContainer>
-            <SocialIcons target="_blank" href="https://github.com/akosijose">
-              <AiFillGithub size="3rem" />
-            </SocialIcons>
-            <SocialIcons
-              target="_blank"
-              href="https://www.linkedin.com/in/jose-gerald-lumbao-2a1077215/"
-            >
-              <AiFillLinkedin size="3rem" />
-            </SocialIcons>
-            <SocialIcons
-              target="_blank"
-              href="https://www.instagram.com/_josegerald/"
-            >
-              <AiFillInstagram size="3rem" />
-            </SocialIcons>
-          </SocialContainer>
-        </LinkColumn>
+        <LinkTitle>Follow me:</LinkTitle>
+        <SocialContainer>
+          <SocialIcons target="_blank" href="https://github.com/akosijose">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons
+            target="_blank"
+            href="https://www.linkedin.com/in/jose-gerald-lumbao-2a1077215/"
+          >
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons
+            target="_blank"
+            href="https://www.instagram.com/_josegerald/"
+          >
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

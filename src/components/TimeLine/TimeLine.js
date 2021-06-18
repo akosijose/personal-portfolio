@@ -67,9 +67,13 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-        obcaecati nihil, quibusdam tenetur totam ex.
+        I am a 3rd year college student from Eulogio "Amang" Rodriguez Institute
+        of Science and Technology. Since the world is in the quarantine, and I’m
+        having lots of spare time, I decided to take this time focusing on
+        feeding more knowledge to myself. I set a couple of self-challenges in
+        order to push myself more further.
       </SectionText>
+
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
