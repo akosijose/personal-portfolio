@@ -67,11 +67,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a 3rd year college student from Eulogio "Amang" Rodriguez Institute
-        of Science and Technology. Since the world is in the quarantine, and I’m
-        having lots of spare time, I decided to take this time focusing on
-        feeding more knowledge to myself. I set a couple of self-challenges in
-        order to push myself more further.
+        I am a 3rd-year college student of Eulogio "Amang" Rodriguez Institute
+        of Science and Technology. We all have been affected by the COVID-19
+        pandemic yet for me, this situation opened another door to improve
+        myself. It pushed me to be productive, learned new skills and ideas.
       </SectionText>
 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
